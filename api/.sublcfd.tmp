@@ -1,0 +1,9 @@
+<?php
+include 'config.php';
+//remove path to install 
+
+echo $_SERVER['PHP_SELF']  ;
+echo '<br>';
+echo $_SERVER['REQUEST_URI'];
+
+?>
